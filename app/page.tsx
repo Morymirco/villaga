@@ -23,7 +23,7 @@ export default function Home() {
         </h1>
 
         {/* Sous-titre */}
-        <p className="text-[10px] md:text-base text-black text-center max-w-2xl mb-8 font-[family-name:var(--font-sf-pro)]">
+        <p className="text-[10px] md:text-base text-black text-center max-w-2xl mb-8 font-[family-name:var(--font-sf-pro)] leading-none">
           En attendant le lancement officiel du site web,<br className="md:hidden" /> vous pouvez nous contacter via les coordonnées <br/> suivantes
         </p>
 
