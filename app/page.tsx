@@ -18,20 +18,20 @@ export default function Home() {
         </div>
 
         {/* Titre principal */}
-        <h1 className="text-4xl md:text-5xl font-bold text-black text-center mb-6 font-[family-name:var(--font-benton)]">
+        <h1 className="text-5xl md:text-6xl font-bold text-black text-center mb-6 font-[family-name:var(--font-benton)]">
           SITE WEB EN CONSTRUCTION
         </h1>
 
         {/* Sous-titre */}
-        <p className="text-sm md:text-base text-black text-center max-w-2xl mb-8 font-[family-name:var(--font-sf-pro)]">
-          En attendant le lancement officiel du site web, vous pouvez nous contacter via les coordonnées suivantes
+        <p className="text-xs md:text-base text-black text-center max-w-2xl mb-8 font-[family-name:var(--font-sf-pro)]">
+          En attendant le lancement officiel du site web,<br className="md:hidden" /> vous pouvez nous contacter via les coordonnées suivantes
         </p>
 
         {/* Icônes de contact */}
         <div className="flex  mb-6">
           <a
             href="tel:+224"
-            className="w-16 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
+            className="w-12 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
             aria-label="Téléphone"
           >
             <Image
@@ -45,7 +45,7 @@ export default function Home() {
             href="https://wa.me/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-16 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
+            className="w-12 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
             aria-label="WhatsApp"
           >
             <Image
@@ -59,7 +59,7 @@ export default function Home() {
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-16 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
+            className="w-12 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
             aria-label="Facebook"
           >
             <Image
@@ -73,7 +73,7 @@ export default function Home() {
             href="https://behance.net"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-16 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
+            className="w-12 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
             aria-label="Behance"
           >
             <Image
@@ -98,7 +98,7 @@ export default function Home() {
       </div>
 
       {/* Section inférieure - Vidéo en boucle */}
-      <div className="h-48 md:h-64 relative overflow-hidden">
+      <div className="h-96 md:h-96 relative overflow-hidden">
         <video
           className="w-full h-full object-cover"
           autoPlay
