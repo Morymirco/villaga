@@ -30,7 +30,7 @@ export default function Home() {
         {/* Icônes de contact */}
         <div className="flex  mb-6">
           <a
-            href="tel:+224"
+            href="tel:+224623045873"
             className="w-12 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
             aria-label="Téléphone"
           >
@@ -42,7 +42,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://wa.me/"
+            href="https://wa.me/224623045873"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
@@ -56,7 +56,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/share/17URrirQur/?mibextid=wwXIfr"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
@@ -70,7 +70,7 @@ export default function Home() {
             />
           </a>
           <a
-            href="https://behance.net"
+            href="https://www.behance.net/kovoguizz"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
