@@ -17,6 +17,14 @@ const sfProDisplay = localFont({
 export const metadata: Metadata = {
   title: "VILIGA - Site en construction",
   description: "Site web VILIGA en cours de développement. Contactez-nous pour plus d'informations.",
+  themeColor: "#ffffff",
+  viewport: {
+    width: "device-width",
+    initialScale: 1,
+  },
+  appleWebApp: {
+    statusBarStyle: "default",
+  },
 };
 
 export default function RootLayout({

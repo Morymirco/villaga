@@ -23,8 +23,8 @@ export default function Home() {
         </h1>
 
         {/* Sous-titre */}
-        <p className="text-xs md:text-base text-black text-center max-w-2xl mb-8 font-[family-name:var(--font-sf-pro)]">
-          En attendant le lancement officiel du site web,<br className="md:hidden" /> vous pouvez nous contacter via les coordonnées suivantes
+        <p className="text-[10px] md:text-base text-black text-center max-w-2xl mb-8 font-[family-name:var(--font-sf-pro)]">
+          En attendant le lancement officiel du site web,<br className="md:hidden" /> vous pouvez nous contacter via les coordonnées <br/> suivantes
         </p>
 
         {/* Icônes de contact */}
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
 
         {/* Pierres colorées */}
-        <div className="w-full max-w-[140px] md:max-w-md px-6">
+        <div className="w-full max-w-[140px] md:max-w-md px-6 animate-float">
           <Image
             src="/SVG/VILIGA - PIERRES.svg"
             alt="Pierres colorées"
