@@ -9,7 +9,7 @@ const bentonSans = localFont({
 });
 
 const sfProDisplay = localFont({
-  src: "../public/FONT/SF/SF-Pro-Display-Regular.otf",
+  src: "../public/FONT/SF/SFUIText-Regular.otf",
   variable: "--font-sf-pro",
   display: "swap",
 });
