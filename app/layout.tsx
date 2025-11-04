@@ -25,6 +25,15 @@ export const metadata: Metadata = {
   appleWebApp: {
     statusBarStyle: "default",
   },
+  icons: {
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+      { url: "/SVG/VILIGA - ICONE.svg", type: "image/svg+xml" },
+    ],
+    apple: [
+      { url: "/icon.svg", type: "image/svg+xml" },
+    ],
+  },
 };
 
 export default function RootLayout({
