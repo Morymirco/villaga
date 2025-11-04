@@ -13,25 +13,25 @@ export default function Home() {
             width={200}
             height={100}
             priority
-            className="h-auto"
+            className="h-auto w-24 md:w-48"
           />
         </div>
 
         {/* Titre principal */}
-        <h1 className="text-4xl md:text-5xl font-bold text-black text-center mb-6">
+        <h1 className="text-4xl md:text-5xl font-bold text-black text-center mb-6 font-[family-name:var(--font-benton)]">
           SITE WEB EN CONSTRUCTION
         </h1>
 
         {/* Sous-titre */}
-        <p className="text-base md:text-lg text-black text-center max-w-2xl mb-8">
+        <p className="text-sm md:text-base text-black text-center max-w-2xl mb-8 font-[family-name:var(--font-sf-pro)]">
           En attendant le lancement officiel du site web, vous pouvez nous contacter via les coordonnées suivantes
         </p>
 
         {/* Icônes de contact */}
-        <div className="flex gap-4 mb-6">
+        <div className="flex  mb-6">
           <a
             href="tel:+224"
-            className="w-16 h-16 border-2 border-black flex items-center justify-center hover:bg-gray-100 transition-colors"
+            className="w-16 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
             aria-label="Téléphone"
           >
             <Image
@@ -45,7 +45,7 @@ export default function Home() {
             href="https://wa.me/"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-16 h-16 border-2 border-black flex items-center justify-center hover:bg-gray-100 transition-colors"
+            className="w-16 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
             aria-label="WhatsApp"
           >
             <Image
@@ -59,7 +59,7 @@ export default function Home() {
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-16 h-16 border-2 border-black flex items-center justify-center hover:bg-gray-100 transition-colors"
+            className="w-16 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
             aria-label="Facebook"
           >
             <Image
@@ -73,7 +73,7 @@ export default function Home() {
             href="https://behance.net"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-16 h-16 border-2 border-black flex items-center justify-center hover:bg-gray-100 transition-colors"
+            className="w-16 h-16 flex items-center justify-center hover:bg-gray-100 transition-colors rounded"
             aria-label="Behance"
           >
             <Image
@@ -86,7 +86,7 @@ export default function Home() {
         </div>
 
         {/* Pierres colorées */}
-        <div className="w-full max-w-md px-6">
+        <div className="w-full max-w-[140px] md:max-w-md px-6">
           <Image
             src="/SVG/VILIGA - PIERRES.svg"
             alt="Pierres colorées"
